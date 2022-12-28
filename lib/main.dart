@@ -1,3 +1,4 @@
+import 'package:first_flutter_app/home_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,9 +11,6 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    int day = 30;
-    return MaterialApp(
-        home:
-            Material(child: Center(child: Text("welcome to $day of flutter"))));
+    return MaterialApp(home: HomePage());
   }
 }
